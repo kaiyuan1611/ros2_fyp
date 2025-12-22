@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+r2_wheel_odometry/__init__.py
+r2_wheel_odometry/wheel_odom.py
+r2_wheel_odometry.egg-info/PKG-INFO
+r2_wheel_odometry.egg-info/SOURCES.txt
+r2_wheel_odometry.egg-info/dependency_links.txt
+r2_wheel_odometry.egg-info/entry_points.txt
+r2_wheel_odometry.egg-info/requires.txt
+r2_wheel_odometry.egg-info/top_level.txt
+r2_wheel_odometry.egg-info/zip-safe
+resource/r2_wheel_odometry

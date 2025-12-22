@@ -1,0 +1,1 @@
+/home/tee/ros2_fyp/build/astra_camera_msgs/rosidl_generator_cpp/astra_camera_msgs/msg/detail/extrinsics__type_support.hpp

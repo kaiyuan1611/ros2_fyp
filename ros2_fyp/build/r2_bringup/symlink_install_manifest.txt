@@ -1,0 +1,16 @@
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/launch/bringup.launch.py
+/home/tee/ros2_fyp/install/r2_bringup/share/ament_index/resource_index/package_run_dependencies/r2_bringup
+/home/tee/ros2_fyp/install/r2_bringup/share/ament_index/resource_index/parent_prefix_path/r2_bringup
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/environment/ament_prefix_path.sh
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/environment/ament_prefix_path.dsv
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/environment/path.sh
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/environment/path.dsv
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/local_setup.bash
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/local_setup.sh
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/local_setup.zsh
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/local_setup.dsv
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/package.dsv
+/home/tee/ros2_fyp/install/r2_bringup/share/ament_index/resource_index/packages/r2_bringup
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/cmake/r2_bringupConfig.cmake
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/cmake/r2_bringupConfig-version.cmake
+/home/tee/ros2_fyp/install/r2_bringup/share/r2_bringup/package.xml

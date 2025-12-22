@@ -1,0 +1,17 @@
+/home/tee/ros2_fyp/install/r2_description/share/r2_description/launch/description.launch.py
+/home/tee/ros2_fyp/install/r2_description/share/r2_description/urdf/r2.urdf.xacro
+/home/tee/ros2_fyp/install/r2_description/share/ament_index/resource_index/package_run_dependencies/r2_description
+/home/tee/ros2_fyp/install/r2_description/share/ament_index/resource_index/parent_prefix_path/r2_description
+/home/tee/ros2_fyp/install/r2_description/share/r2_description/environment/ament_prefix_path.sh
+/home/tee/ros2_fyp/install/r2_description/share/r2_description/environment/ament_prefix_path.dsv
+/home/tee/ros2_fyp/install/r2_description/share/r2_description/environment/path.sh
+/home/tee/ros2_fyp/install/r2_description/share/r2_description/environment/path.dsv
+/home/tee/ros2_fyp/install/r2_description/share/r2_description/local_setup.bash
+/home/tee/ros2_fyp/install/r2_description/share/r2_description/local_setup.sh
+/home/tee/ros2_fyp/install/r2_description/share/r2_description/local_setup.zsh
+/home/tee/ros2_fyp/install/r2_description/share/r2_description/local_setup.dsv
+/home/tee/ros2_fyp/install/r2_description/share/r2_description/package.dsv
+/home/tee/ros2_fyp/install/r2_description/share/ament_index/resource_index/packages/r2_description
+/home/tee/ros2_fyp/install/r2_description/share/r2_description/cmake/r2_descriptionConfig.cmake
+/home/tee/ros2_fyp/install/r2_description/share/r2_description/cmake/r2_descriptionConfig-version.cmake
+/home/tee/ros2_fyp/install/r2_description/share/r2_description/package.xml

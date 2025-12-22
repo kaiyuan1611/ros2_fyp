@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.001629] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.002253] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.002749] (-) JobUnselected: {'identifier': 'r2_description'}
+[0.002935] (-) JobUnselected: {'identifier': 'r2_driver'}
+[0.003220] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.003393] (r2_wheel_odometry) JobQueued: {'identifier': 'r2_wheel_odometry', 'dependencies': OrderedDict()}
+[0.003495] (r2_wheel_odometry) JobStarted: {'identifier': 'r2_wheel_odometry'}
+[0.098906] (-) TimerEvent: {}
+[0.199562] (-) TimerEvent: {}
+[0.300246] (-) TimerEvent: {}
+[0.401130] (-) TimerEvent: {}
+[0.501933] (-) TimerEvent: {}
+[0.602617] (-) TimerEvent: {}
+[0.703302] (-) TimerEvent: {}
+[0.804009] (-) TimerEvent: {}
+[0.904646] (-) TimerEvent: {}
+[1.005447] (-) TimerEvent: {}
+[1.106113] (-) TimerEvent: {}
+[1.206754] (-) TimerEvent: {}
+[1.307603] (-) TimerEvent: {}
+[1.408775] (-) TimerEvent: {}
+[1.509785] (-) TimerEvent: {}
+[1.610465] (-) TimerEvent: {}
+[1.711249] (-) TimerEvent: {}
+[1.811960] (-) TimerEvent: {}
+[1.912645] (-) TimerEvent: {}
+[2.013393] (-) TimerEvent: {}
+[2.114068] (-) TimerEvent: {}
+[2.214717] (-) TimerEvent: {}
+[2.315378] (-) TimerEvent: {}
+[2.416047] (-) TimerEvent: {}
+[2.516754] (-) TimerEvent: {}
+[2.617554] (-) TimerEvent: {}
+[2.718208] (-) TimerEvent: {}
+[2.818919] (-) TimerEvent: {}
+[2.919643] (-) TimerEvent: {}
+[3.020375] (-) TimerEvent: {}
+[3.121254] (-) TimerEvent: {}
+[3.222103] (-) TimerEvent: {}
+[3.291128] (r2_wheel_odometry) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/tee/ros2_fyp/build/r2_wheel_odometry/build', '--no-deps', 'symlink_data'], 'cwd': '/home/tee/ros2_fyp/build/r2_wheel_odometry', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tee', 'SSH_CLIENT': '192.168.1.53 39526 22', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/tee/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/tee/ros2_fyp/install/astra_camera/lib:/home/tee/ros2_fyp/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/tee/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/tee', 'OLDPWD': '/home/tee/ros2_fyp/src', 'TERM_PROGRAM_VERSION': '1.107.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-1eb1a6cc-a0f9-4c6f-a870-718eaf3616c9.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/tee/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'id_ID.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/tee/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/tee/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/tee/ros2_fyp/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tee', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/tee/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/tee/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/tee/.vscode-server/cli/servers/Stable-618725e67565b290ba4da6fe2d29f8fa1d4e3622/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/tee/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/tee/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-fe44b26d18591bb3.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/tee/.vscode-server/data/User/workspaceStorage/bcfda985b3c4705c91ebb8559e8d5528-1/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'id_ID.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-675ad0cfe9.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/tee/ros2_fyp/install/r2_description:/home/tee/ros2_fyp/install/rplidar_ros:/home/tee/ros2_fyp/install/r2_driver:/home/tee/ros2_fyp/install/astra_camera:/home/tee/ros2_fyp/install/astra_camera_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/tee/ros2_fyp/build/r2_wheel_odometry', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.53 39526 192.168.1.93 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tee/ros2_fyp/build/r2_wheel_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tee/ros2_fyp/install/r2_wheel_odometry/lib/python3.10/site-packages:/home/tee/ros2_fyp/build/r2_driver:/home/tee/ros2_fyp/install/r2_driver/lib/python3.10/site-packages:/home/tee/ros2_fyp/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/tee/ros2_fyp/install/r2_description:/home/tee/ros2_fyp/install/rplidar_ros:/home/tee/ros2_fyp/install/astra_camera:/home/tee/ros2_fyp/install/astra_camera_msgs'}, 'shell': False}
+[3.322300] (-) TimerEvent: {}
+[3.423031] (-) TimerEvent: {}
+[3.523758] (-) TimerEvent: {}
+[3.624470] (-) TimerEvent: {}
+[3.725205] (-) TimerEvent: {}
+[3.825847] (-) TimerEvent: {}
+[3.926552] (-) TimerEvent: {}
+[4.027201] (-) TimerEvent: {}
+[4.127842] (-) TimerEvent: {}
+[4.228488] (-) TimerEvent: {}
+[4.329258] (-) TimerEvent: {}
+[4.429908] (-) TimerEvent: {}
+[4.530577] (-) TimerEvent: {}
+[4.613219] (r2_wheel_odometry) StdoutLine: {'line': b'running develop\n'}
+[4.630747] (-) TimerEvent: {}
+[4.731471] (-) TimerEvent: {}
+[4.832121] (-) TimerEvent: {}
+[4.932783] (-) TimerEvent: {}
+[5.033480] (-) TimerEvent: {}
+[5.134143] (-) TimerEvent: {}
+[5.234799] (-) TimerEvent: {}
+[5.335457] (-) TimerEvent: {}
+[5.436157] (-) TimerEvent: {}
+[5.536866] (-) TimerEvent: {}
+[5.551591] (r2_wheel_odometry) StdoutLine: {'line': b'running egg_info\n'}
+[5.552200] (r2_wheel_odometry) StdoutLine: {'line': b'creating r2_wheel_odometry.egg-info\n'}
+[5.552754] (r2_wheel_odometry) StdoutLine: {'line': b'writing r2_wheel_odometry.egg-info/PKG-INFO\n'}
+[5.553866] (r2_wheel_odometry) StdoutLine: {'line': b'writing dependency_links to r2_wheel_odometry.egg-info/dependency_links.txt\n'}
+[5.554551] (r2_wheel_odometry) StdoutLine: {'line': b'writing entry points to r2_wheel_odometry.egg-info/entry_points.txt\n'}
+[5.555129] (r2_wheel_odometry) StdoutLine: {'line': b'writing requirements to r2_wheel_odometry.egg-info/requires.txt\n'}
+[5.555675] (r2_wheel_odometry) StdoutLine: {'line': b'writing top-level names to r2_wheel_odometry.egg-info/top_level.txt\n'}
+[5.556644] (r2_wheel_odometry) StdoutLine: {'line': b"writing manifest file 'r2_wheel_odometry.egg-info/SOURCES.txt'\n"}
+[5.563669] (r2_wheel_odometry) StdoutLine: {'line': b"reading manifest file 'r2_wheel_odometry.egg-info/SOURCES.txt'\n"}
+[5.566478] (r2_wheel_odometry) StdoutLine: {'line': b"writing manifest file 'r2_wheel_odometry.egg-info/SOURCES.txt'\n"}
+[5.572553] (r2_wheel_odometry) StdoutLine: {'line': b'running build_ext\n'}
+[5.573550] (r2_wheel_odometry) StdoutLine: {'line': b'Creating /home/tee/ros2_fyp/install/r2_wheel_odometry/lib/python3.10/site-packages/r2-wheel-odometry.egg-link (link to .)\n'}
+[5.576939] (r2_wheel_odometry) StdoutLine: {'line': b'\n'}
+[5.577597] (r2_wheel_odometry) StdoutLine: {'line': b'Installed /home/tee/ros2_fyp/build/r2_wheel_odometry\n'}
+[5.578344] (r2_wheel_odometry) StdoutLine: {'line': b'running symlink_data\n'}
+[5.578855] (r2_wheel_odometry) StdoutLine: {'line': b'creating /home/tee/ros2_fyp/install/r2_wheel_odometry/share/ament_index\n'}
+[5.579279] (r2_wheel_odometry) StdoutLine: {'line': b'creating /home/tee/ros2_fyp/install/r2_wheel_odometry/share/ament_index/resource_index\n'}
+[5.579953] (r2_wheel_odometry) StdoutLine: {'line': b'creating /home/tee/ros2_fyp/install/r2_wheel_odometry/share/ament_index/resource_index/packages\n'}
+[5.581244] (r2_wheel_odometry) StdoutLine: {'line': b'symbolically linking /home/tee/ros2_fyp/build/r2_wheel_odometry/resource/r2_wheel_odometry -> /home/tee/ros2_fyp/install/r2_wheel_odometry/share/ament_index/resource_index/packages\n'}
+[5.582670] (r2_wheel_odometry) StdoutLine: {'line': b'symbolically linking /home/tee/ros2_fyp/build/r2_wheel_odometry/package.xml -> /home/tee/ros2_fyp/install/r2_wheel_odometry/share/r2_wheel_odometry\n'}
+[5.637158] (-) TimerEvent: {}
+[5.714830] (r2_wheel_odometry) CommandEnded: {'returncode': 0}
+[5.737339] (-) TimerEvent: {}
+[5.788604] (r2_wheel_odometry) JobEnded: {'identifier': 'r2_wheel_odometry', 'rc': 0}
+[5.791333] (-) EventReactorShutdown: {}

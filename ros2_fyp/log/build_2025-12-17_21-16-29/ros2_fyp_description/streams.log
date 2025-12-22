@@ -1,0 +1,33 @@
+[0.063s] Invoking command in '/home/tee/ros2_fyp/build/ros2_fyp_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --build /home/tee/ros2_fyp/build/ros2_fyp_description -- -j4 -l4
+[0.162s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.741s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.774s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.104s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.109s] -- Added test 'lint_cmake' to check CMake code style
+[1.111s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.121s] -- Added test 'xmllint' to check XML markup files
+[1.127s] -- Configuring done
+[1.147s] -- Generating done
+[1.156s] -- Build files have been written to: /home/tee/ros2_fyp/build/ros2_fyp_description
+[1.243s] Invoked command in '/home/tee/ros2_fyp/build/ros2_fyp_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --build /home/tee/ros2_fyp/build/ros2_fyp_description -- -j4 -l4
+[1.288s] Invoking command in '/home/tee/ros2_fyp/build/ros2_fyp_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --install /home/tee/ros2_fyp/build/ros2_fyp_description
+[1.317s] -- Install configuration: ""
+[1.319s] -- Execute custom install script
+[1.321s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description}/urdf/ros2_fyp_robot.urdf.xacro
+[1.356s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description}/launch/robot_state.launch.py
+[1.391s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ament_index/resource_index/package_run_dependencies/ros2_fyp_description
+[1.392s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ament_index/resource_index/parent_prefix_path/ros2_fyp_description
+[1.393s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/environment/ament_prefix_path.sh
+[1.394s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/environment/ament_prefix_path.dsv
+[1.395s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/environment/path.sh
+[1.396s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/environment/path.dsv
+[1.397s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/local_setup.bash
+[1.398s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/local_setup.sh
+[1.399s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/local_setup.zsh
+[1.400s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/local_setup.dsv
+[1.401s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/package.dsv
+[1.438s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ament_index/resource_index/packages/ros2_fyp_description
+[1.439s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/cmake/ros2_fyp_descriptionConfig.cmake
+[1.439s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/cmake/ros2_fyp_descriptionConfig-version.cmake
+[1.440s] -- Up-to-date symlink: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/package.xml
+[1.447s] Invoked command in '/home/tee/ros2_fyp/build/ros2_fyp_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --install /home/tee/ros2_fyp/build/ros2_fyp_description

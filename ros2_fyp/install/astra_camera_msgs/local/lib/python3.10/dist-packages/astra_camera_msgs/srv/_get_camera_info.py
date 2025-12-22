@@ -1,0 +1,1 @@
+/home/tee/ros2_fyp/build/astra_camera_msgs/rosidl_generator_py/astra_camera_msgs/srv/_get_camera_info.py

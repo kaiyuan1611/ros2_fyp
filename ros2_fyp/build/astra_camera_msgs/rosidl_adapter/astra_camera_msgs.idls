@@ -1,0 +1,9 @@
+/home/tee/ros2_fyp/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/DeviceInfo.idl
+/home/tee/ros2_fyp/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/Extrinsics.idl
+/home/tee/ros2_fyp/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/Metadata.idl
+/home/tee/ros2_fyp/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetDeviceInfo.idl
+/home/tee/ros2_fyp/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetCameraInfo.idl
+/home/tee/ros2_fyp/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetCameraParams.idl
+/home/tee/ros2_fyp/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetInt32.idl
+/home/tee/ros2_fyp/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetString.idl
+/home/tee/ros2_fyp/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/SetInt32.idl

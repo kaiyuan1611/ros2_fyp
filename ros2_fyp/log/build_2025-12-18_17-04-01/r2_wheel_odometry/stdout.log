@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating r2_wheel_odometry.egg-info
+writing r2_wheel_odometry.egg-info/PKG-INFO
+writing dependency_links to r2_wheel_odometry.egg-info/dependency_links.txt
+writing entry points to r2_wheel_odometry.egg-info/entry_points.txt
+writing requirements to r2_wheel_odometry.egg-info/requires.txt
+writing top-level names to r2_wheel_odometry.egg-info/top_level.txt
+writing manifest file 'r2_wheel_odometry.egg-info/SOURCES.txt'
+reading manifest file 'r2_wheel_odometry.egg-info/SOURCES.txt'
+writing manifest file 'r2_wheel_odometry.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tee/ros2_fyp/install/r2_wheel_odometry/lib/python3.10/site-packages/r2-wheel-odometry.egg-link (link to .)
+
+Installed /home/tee/ros2_fyp/build/r2_wheel_odometry
+running symlink_data
+creating /home/tee/ros2_fyp/install/r2_wheel_odometry/share/ament_index
+creating /home/tee/ros2_fyp/install/r2_wheel_odometry/share/ament_index/resource_index
+creating /home/tee/ros2_fyp/install/r2_wheel_odometry/share/ament_index/resource_index/packages
+symbolically linking /home/tee/ros2_fyp/build/r2_wheel_odometry/resource/r2_wheel_odometry -> /home/tee/ros2_fyp/install/r2_wheel_odometry/share/ament_index/resource_index/packages
+symbolically linking /home/tee/ros2_fyp/build/r2_wheel_odometry/package.xml -> /home/tee/ros2_fyp/install/r2_wheel_odometry/share/r2_wheel_odometry

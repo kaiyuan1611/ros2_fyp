@@ -1,0 +1,44 @@
+[0.058s] Invoking command in '/home/tee/ros2_fyp/build/ros2_fyp_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake /home/tee/ros2_fyp/src/ros2_fyp_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tee/ros2_fyp/install/ros2_fyp_description
+[0.944s] -- The C compiler identification is GNU 11.4.0
+[1.668s] -- The CXX compiler identification is GNU 11.4.0
+[1.718s] -- Detecting C compiler ABI info
+[2.126s] -- Detecting C compiler ABI info - done
+[2.154s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.156s] -- Detecting C compile features
+[2.159s] -- Detecting C compile features - done
+[2.174s] -- Detecting CXX compiler ABI info
+[2.566s] -- Detecting CXX compiler ABI info - done
+[2.595s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.596s] -- Detecting CXX compile features
+[2.598s] -- Detecting CXX compile features - done
+[2.659s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.485s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.818s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.356s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.940s] -- Added test 'lint_cmake' to check CMake code style
+[4.954s] -- Added test 'xmllint' to check XML markup files
+[4.966s] -- Configuring done
+[4.987s] -- Generating done
+[4.995s] -- Build files have been written to: /home/tee/ros2_fyp/build/ros2_fyp_description
+[5.010s] Invoked command in '/home/tee/ros2_fyp/build/ros2_fyp_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake /home/tee/ros2_fyp/src/ros2_fyp_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tee/ros2_fyp/install/ros2_fyp_description
+[5.020s] Invoking command in '/home/tee/ros2_fyp/build/ros2_fyp_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --build /home/tee/ros2_fyp/build/ros2_fyp_description -- -j4 -l4
+[5.175s] Invoked command in '/home/tee/ros2_fyp/build/ros2_fyp_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --build /home/tee/ros2_fyp/build/ros2_fyp_description -- -j4 -l4
+[5.223s] Invoking command in '/home/tee/ros2_fyp/build/ros2_fyp_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --install /home/tee/ros2_fyp/build/ros2_fyp_description
+[5.249s] -- Install configuration: ""
+[5.251s] -- Execute custom install script
+[5.253s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ament_index/resource_index/package_run_dependencies/ros2_fyp_description
+[5.290s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ament_index/resource_index/parent_prefix_path/ros2_fyp_description
+[5.325s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/environment/ament_prefix_path.sh
+[5.359s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/environment/ament_prefix_path.dsv
+[5.394s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/environment/path.sh
+[5.428s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/environment/path.dsv
+[5.464s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/local_setup.bash
+[5.502s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/local_setup.sh
+[5.538s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/local_setup.zsh
+[5.574s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/local_setup.dsv
+[5.611s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/package.dsv
+[5.647s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ament_index/resource_index/packages/ros2_fyp_description
+[5.683s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/cmake/ros2_fyp_descriptionConfig.cmake
+[5.719s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/cmake/ros2_fyp_descriptionConfig-version.cmake
+[5.754s] -- Symlinking: /home/tee/ros2_fyp/install/ros2_fyp_description/share/ros2_fyp_description/package.xml
+[5.794s] Invoked command in '/home/tee/ros2_fyp/build/ros2_fyp_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tee/ros2_fyp/install/r2_driver:/opt/ros/humble /usr/bin/cmake --install /home/tee/ros2_fyp/build/ros2_fyp_description

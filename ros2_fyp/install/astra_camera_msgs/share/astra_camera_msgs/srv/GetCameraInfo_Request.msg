@@ -1,0 +1,1 @@
+/home/tee/ros2_fyp/build/astra_camera_msgs/rosidl_cmake/srv/GetCameraInfo_Request.msg
