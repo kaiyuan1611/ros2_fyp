@@ -26,7 +26,7 @@ class R2DriverNode(Node):
     def __init__(self):
         super().__init__('r2_driver')
 
-        # Parameters (can be overridden via ROS2 params)
+    
         self.declare_parameter('max_speed', 1.0)            # m/s
         self.declare_parameter('max_steer_angle_deg', 30.0) # ± steering from center
         self.declare_parameter('servo_id', 1)               # steering servo channel
@@ -48,18 +48,15 @@ class R2DriverNode(Node):
         self.cmd_vel_timeout = float(self.get_parameter('cmd_vel_timeout').value)
         self.control_rate_hz = float(self.get_parameter('control_rate_hz').value)
 
-        # Angular.z at which we apply max steering (you can tune this)
         self.ang_z_for_max_steer = 1.0  # rad/s
 
         self.get_logger().info("Initializing Rosmaster R2 hardware...")
         self.bot = Rosmaster(car_type=5)
         self.bot.set_car_type(5)
 
-        # Current command state
         self.current_twist = Twist()
         self.last_cmd_time = self.get_clock().now()
 
-        # Subscribe to /cmd_vel
         self.cmd_sub = self.create_subscription(
             Twist,
             'cmd_vel',
@@ -67,11 +64,9 @@ class R2DriverNode(Node):
             10
         )
 
-        # Control loop timer
         period = 1.0 / self.control_rate_hz
         self.timer = self.create_timer(period, self.control_loop)
 
-        # Initialize steering to center
         self._send_steering(self.center_angle)
 
         self.get_logger().info("R2DriverNode initialized. Listening on /cmd_vel")
