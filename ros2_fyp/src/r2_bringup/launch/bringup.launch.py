@@ -9,7 +9,6 @@ import os
 
 
 def generate_launch_description():
-    # Launch args (so you can override at runtime if needed)
     rplidar_port = LaunchConfiguration('rplidar_port')
     rplidar_baud = LaunchConfiguration('rplidar_baud')
     use_teleop = LaunchConfiguration('use_teleop')
@@ -40,16 +39,13 @@ def generate_launch_description():
         )
     )
 
-    # --- Node: wheel odom (your ros2 run r2_wheel_odometry wheel_odom) ---
     wheel_odom_node = Node(
         package='r2_wheel_odometry',
         executable='wheel_odom',
         name='wheel_odom',
         output='screen'
-        # parameters=[...],  # add your odom params here if your node expects any
     )
-
-    # --- Include: rplidar_ros (your ros2 launch ... serial_port:= ... serial_baudrate:= ...) ---
+    
     rplidar_share = get_package_share_directory('rplidar_ros')
     rplidar_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -88,5 +84,4 @@ def generate_launch_description():
         astra_launch,
         r2_driver_launch,
 
-        # teleop_node,  # uncomment if you really want teleop inside this launch
     ])
