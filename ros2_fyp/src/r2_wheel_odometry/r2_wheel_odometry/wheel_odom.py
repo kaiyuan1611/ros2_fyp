@@ -109,20 +109,7 @@ class WheelOdom(Node):
         self.delta_rad = float(msg.data) * self.steer_scale
 
     def steering_delta_rad_from_cmdvel(self) -> float:
-        """
-        Match your driver mapping exactly:
-
-          norm = clamp(ang_z / ang_z_for_max_steer, -1, 1)
-          steering_angle_deg = center - norm * max_steer_angle_deg
-          clamp steering within [min_angle_deg, max_angle_deg]
-
-        Physical observation:
-          smaller servo angle => left
-
-        Convert servo command -> Ackermann delta:
-          delta_deg = center - steering_angle_deg  (left positive)
-          delta_rad = radians(delta_deg) * steer_scale
-        """
+    
         ang_z = float(self.last_cmd.angular.z)
 
         if self.ang_z_for_max_steer > 0.0:
