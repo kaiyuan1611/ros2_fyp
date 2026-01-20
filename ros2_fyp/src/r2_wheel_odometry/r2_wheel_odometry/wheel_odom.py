@@ -136,10 +136,10 @@ class WheelOdom(Node):
         meters_per_tick = (2.0 * math.pi * self.R) / self.TPR
         vL = (dL * meters_per_tick) / dt
         vR = (dR * meters_per_tick) / dt
-        v = 0.5 * (vL + vR)
+        v = 0.5 * (vL + vR) # average rear wheel velocity 
 
-        delta = self.delta_rad
-        yaw_rate = (v / self.L) * math.tan(delta)
+        delta = self.delta_rad # steering angle (radians)
+        yaw_rate = (v / self.L) * math.tan(delta) # Angular velocity from Ackermann model
 
         # Integrate (planar)
         self.x += v * math.cos(self.yaw) * dt
