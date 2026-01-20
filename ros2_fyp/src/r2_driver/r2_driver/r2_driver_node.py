@@ -98,6 +98,7 @@ class R2DriverNode(Node):
             # Normalize angular.z into [-1, 1]
             if self.ang_z_for_max_steer > 0.0:
                 norm = clamp(ang_z / self.ang_z_for_max_steer, -1.0, 1.0)
+            #Safety check
             else:
                 norm = 0.0
 
@@ -108,6 +109,7 @@ class R2DriverNode(Node):
         # Clamp steering angle within mechanical limits
         steering_angle = clamp(steering_angle, self.min_angle, self.max_angle)
         # steering_angle is servo command in degrees
+        # Publishes steering_angle msg to wheel_odom in radians
         delta_deg = self.center_angle - steering_angle   # left positive
         self.last_steer_delta_rad = math.radians(delta_deg)
 
